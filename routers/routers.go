@@ -8,6 +8,7 @@ import (
 func Routers() *gin.Engine {
 	router := gin.Default()
 	UserRoutes(router)
+	UploadRoutes(router)
 
 	return router
 }
