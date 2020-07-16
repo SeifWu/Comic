@@ -14,8 +14,8 @@ import (
 
 // RegisterParams 组册参数
 type RegisterParams struct {
-	Username string `json:"userName"`
-	Password string `json:"passWord"`
+	Username string
+	Password string
 }
 
 // Register 注册

@@ -14,5 +14,6 @@ func DBMigrate() {
 		&model.Comic{},
 		&model.ComicChapter{},
 		&model.ComicChapterDetail{},
+		&model.Attachment{},
 	)
 }

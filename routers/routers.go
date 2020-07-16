@@ -9,6 +9,7 @@ func Routers() *gin.Engine {
 	router := gin.Default()
 	UserRoutes(router)
 	UploadRoutes(router)
+	ComicRoutes(router)
 
 	return router
 }
