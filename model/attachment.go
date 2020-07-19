@@ -7,7 +7,8 @@ type Attachment struct {
 	gorm.Model
 
 	FileName  string
-	FileSize  string
+	FileSize  int64
+	SignID    string
 	OwnerID   int
 	OwnerType string
 }
